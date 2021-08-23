@@ -12,7 +12,8 @@ Budget Tracker is an application that can receive and store input for an account
   5. [Testing](#testing)
   6. [Questions](#questions)
   7. [Screenshots](#screenshots)
-  8. [License](#license)
+  8. [Link to Deployed Heroku App](#link-to-deployed-heroku-app)
+  9. [License](#license)
   
 ## Description
 
@@ -48,6 +49,9 @@ Please don't hesitate to reach out to me via [GitHub](https://github.com/rangamb
 ## Screenshots
 
 ![Screenshot](./assets/images/screenshot-01.jpg 'screenshot')
+
+## Link to Deployed Heroku App
+[Budget Tracker](https://rg-budget-tracker.herokuapp.com/)
 
 ## License
 
