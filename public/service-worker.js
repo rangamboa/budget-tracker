@@ -9,12 +9,17 @@ const FILES_TO_CACHE = [
   "/styles.css"
 ];
 
+console.log('testing FILES_TO_CACHE:\n' + FILES_TO_CACHE);
+
 // install
 self.addEventListener("install", function (evt) {
+    
     // pre cache image data
-    evt.waitUntil(
-      caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/images"))
-    );
+    // commented out the following code since I don't have any image data to cache.
+
+    // evt.waitUntil(
+    //   caches.open(DATA_CACHE_NAME).then((cache) => cache.add("/api/images"))
+    // );
       
     // pre cache all static assets
     evt.waitUntil(
